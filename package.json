@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack -p",
+    "react-dev": "webpack -d --watch"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,7 @@
     "react-dom": "^16.7.0"
   },
   "devDependencies": {
-    "webpack": "^4.29.1"
+    "webpack": "^4.29.1",
+    "webpack-cli": "^3.2.1"
   }
 }

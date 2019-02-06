@@ -21,7 +21,8 @@ const Question = styled.div`
 
 const InputBox = styled.div`
   background: rgba(255,255,255, 0.05);
-  height: 3em;
+  font-size: 5em;
+  text-align: center;
 `;
 
 class Card extends React.Component {
